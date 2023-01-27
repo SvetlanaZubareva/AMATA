@@ -61,11 +61,14 @@
 .body-index{
     background-image: url("./img/photo_2023-01-20_17-17-34.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+
+    background-size: auto 100%;
+    background-position: center;
+    height: 1vh;
 
 }
