@@ -199,6 +199,9 @@
 .footer-about-us__li--color:hover{
   color: #fff;
 }
+.header-about-us__a1:hover{
+  color: #DE1877;
+}
 .footer-about-us__ul-two{
   display: flex;
   flex-direction: row;
