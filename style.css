@@ -8,29 +8,30 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  @font-face {
+  /* @font-face {
    font-family: "Times New Roman";
    font-style: normal;
    font-weight: 400;
    src: url("./fonts/times_new_roman.woff2") format("woff2");
    font-display: swap;
- }
+ } */
+ /* @import url(//db.onlinewebfonts.com/c/266447f91e71c4700d74aab76fbc3870?family=Bodoni+MT+Black); */
   
   html {
     height: 100%;
     overflow-x: hidden;
-    overflow-y: hidden
+    /* overflow-y: hidden  */
   }
   
   body {
     width: 100%;
     min-height: 100%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    line-height: 22px;
+    font-family: "Bodoni MT Black";
+    font-size: calc(10px + 26 * (100vw / 1555));
+    line-height: calc(10px + 26 * (100vw / 1555));
     font-weight: 400;
-    color: #0B101B;
-    background-color: #ffff;
+    color: #fff;
+    background-color: #636675;
     min-width: 320px;
     max-width: 100%;
     margin: 0 auto;
@@ -40,10 +41,10 @@
   a{
    cursor: pointer;
    text-decoration: none;
-   color: black;
   }
   p,
-  h2{
+  h2,
+  h1{
     margin: 0;
   }
   li{
@@ -53,12 +54,147 @@
     margin: 0;
     padding: 0;
   }
-  img{
-    width: 100%;
-    height: 100%;
+  .header-about-us__h1{
+    font-size: calc(20px + 20 * (100vw / 1555));
+    line-height: calc(20px + 20 * (100vw / 1555));
   }
-
-.body-index{
+  .header-about-us__span{
+    color: #E0001D;
+  }
+  .header-about-us__a{
+    color: #080A09;
+    font-size: calc(10px + 14 * (100vw / 1555));
+  }
+  .header-about-us__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5% 50px;
+  }
+  .header-about-us__a{
+    display: flex;
+    align-items: center;
+  }
+  .header-about-us__img{
+    width: calc(55px + 10 * (100vw / 1555));
+  }
+  .nav-about-us{
+    background-color: rgba(222, 24, 119, 0.89);;
+  }
+  .nav-about-us__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5% 50px;
+  }
+  .nav-about-us__a{
+    font-size: calc(10px + 6 * (100vw / 1555));
+    line-height: calc(10px + 6 * (100vw / 1555));
+    color: #fff;
+    margin-right: 10px;
+  }
+  .main-about-us__p{
+    padding: 50px 14% 150px;
+    text-align: center;
+    line-height: calc(20px + 25 * (100vw / 1555));
+  }
+  .main-about-us__h2{
+    text-align: center;
+    line-height: calc(20px + 55 * (100vw / 1555));
+    font-size: calc(20px + 44 * (100vw / 1555));
+  }
+  .main-about-us__section-li-img{
+    fill: #DE1877;
+    color: #DE1877;
+  }
+  .main-about-us__section-li-p{
+    line-height: calc(10px + 14 * (100vw / 1555));
+    font-size: calc(10px + 14 * (100vw / 1555));
+  }
+  .main-about-us__section-ul{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 10% 150px;
+  }
+  .main-about-us__section-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+  }
+  .main-about-us__section-li-p{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .main-about-us__section__h2{
+    line-height: calc(20px + 16 * (100vw / 1555));
+    font-size: calc(20px + 16 * (100vw / 1555));
+    margin-left: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 700;
+  }
+  .main-about-us__section-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5% 50px;
+  }
+  .main-about-us__section-p{
+    padding: 50px 20% 50px;
+    text-align: center;
+    line-height: calc(20px + 12 * (100vw / 1555));
+    font-size: calc(20px + 12 * (100vw / 1555));
+    font-style: italic;
+  }
+  .footer-about-us{
+    background-color: #284A4F;
+    padding: 50px 5% 50px;
+  }
+  /* .footer-about-us__li{
+    line-height: calc(15px + 9 * (100vw / 1555));
+    font-size: calc(15px + 9 * (100vw / 1555));
+    font-weight: 700;
+    
+  } */
+  .footer-about-us__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-about-us__ul-one{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+.footer-about-us__li-h2{
+  line-height: calc(15px + 9 * (100vw / 1555));
+    font-size: calc(15px + 9 * (100vw / 1555));
+    font-weight: 700;
+}
+.footer-about-us__li{
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.footer-about-us__li--color{
+  color: #DE1877;
+  line-height: calc(15px + 3 * (100vw / 1555));
+    font-size: calc(15px + 3 * (100vw / 1555));
+}
+.footer-about-us__ul-two{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+/* .body-index{
     background-image: url("./img/photo_2023-01-20_17-17-34.jpg");
     background-repeat: no-repeat;
     display: flex;
@@ -71,4 +207,4 @@
     background-position: center;
     height: 1vh;
 
-}
+} */
