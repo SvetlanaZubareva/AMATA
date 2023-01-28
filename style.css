@@ -91,7 +91,7 @@
   }
   .nav-about-us__a{
     font-size: calc(10px + 6 * (100vw / 1555));
-    line-height: calc(10px + 6 * (100vw / 1555));
+    line-height: calc(15px + 6 * (100vw / 1555));
     color: #fff;
     margin-right: 10px;
   }
@@ -265,6 +265,21 @@
 .main-cooperation__a{
   color: #DE1877;
 }
+.nav-about-us__li{
+  display: flex;
+}
+.nav-about-us__li:nth-child(2){
+  width: 210px;
+}
+.nav-about-us__li:nth-child(4){
+  width: 210px;
+}
+.nav-about-us__li:nth-child(5){
+  width: 150px;
+}
+.nav-about-us__li:nth-child(6){
+  width: 150px;
+}
 @media(max-width:767px){
   .header-about-us__li:nth-child(3){
     display: block;
@@ -292,6 +307,7 @@
   .main-cooperation__section{
     padding-top: 50px;
   }
+ 
 }
 @media(max-width:1200px){
   .nav-about-us__a{
