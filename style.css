@@ -95,6 +95,9 @@
     color: #fff;
     margin-right: 10px;
   }
+  .nav-about-us__a:hover{
+    color: #284A4F;
+  }
   .main-about-us__p{
     padding: 50px 14% 150px;
     text-align: center;
@@ -108,6 +111,10 @@
   .main-about-us__section-li-img{
     fill: #DE1877;
     color: #DE1877;
+  }
+  .main-about-us__section-li-img:hover{
+    fill: #fff;
+    color: #fff;
   }
   .main-about-us__section-li-p{
     line-height: calc(10px + 14 * (100vw / 1555));
@@ -189,6 +196,9 @@
   line-height: calc(15px + 3 * (100vw / 1555));
     font-size: calc(15px + 3 * (100vw / 1555));
 }
+.footer-about-us__li--color:hover{
+  color: #fff;
+}
 .footer-about-us__ul-two{
   display: flex;
   flex-direction: row;
@@ -245,6 +255,10 @@
   background-color: #DE1877;
   margin-top: 30px;
 }
+.main-price__a:hover{
+  color: #DE1877;
+  background-color: #fff;
+}
 .nihe-main__p{
   padding: 50px 5% 50px;
   text-align: center;
@@ -264,6 +278,9 @@
 }
 .main-cooperation__a{
   color: #DE1877;
+}
+.main-cooperation__a:hover{
+  color: #284A4F;
 }
 .nav-about-us__li{
   display: flex;
