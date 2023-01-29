@@ -300,6 +300,30 @@
 .nav-about-us__li:nth-child(6){
   width: 150px;
 }
+.main-useful-information__h2{
+  line-height: calc(50px + 16 * (100vw / 1555));
+  font-size: calc(20px + 44 * (100vw / 1555));
+  padding: 5%;
+  text-align: center;
+}
+.main-useful-information__p{
+  line-height: calc(30px + 16 * (100vw / 1555));
+  font-size: calc(16px + 18 * (100vw / 1555));
+  padding: 0 10% 5%;
+  text-align: center;
+}
+.main-useful-information__span{
+  text-align: left;
+  line-height: calc(30px + 16 * (100vw / 1555));
+  font-size: calc(16px + 18 * (100vw / 1555));
+  padding: 0 10% 5%;
+}
+.main-development-h2{
+  line-height: calc(30px + 16 * (100vw / 1555));
+  font-size: calc(30px + 40 * (100vw / 1555));
+  text-align: center;
+  padding: 5%;
+}
 @media(max-width:767px){
   .header-about-us__li:nth-child(3){
     display: block;
@@ -327,6 +351,17 @@
   .main-cooperation__section{
     padding-top: 50px;
   }
+  .body-index{
+    background-image: url("./img/670.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: auto 100%;
+    background-position: center;
+    height: 1vh;
+
+}
  
 }
 @media(max-width:1200px){
@@ -364,7 +399,7 @@
     padding: 0 2% 50px;
   }
 }
-/* .body-index{
+.body-index{
     background-image: url("./img/photo_2023-01-20_17-17-34.jpg");
     background-repeat: no-repeat;
     display: flex;
@@ -377,15 +412,7 @@
     background-position: center;
     height: 1vh;
 
-} */
-
-
-
-
-
-
-
-
+}
 
 /* скрываем чекбокс */
 #menu__toggle {
@@ -444,6 +471,7 @@
   color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  line-height: 30px;
   font-weight: 600;
   text-decoration: none;
 }
