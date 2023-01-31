@@ -440,7 +440,6 @@ margin-top: 36%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
   }
   .main-about-us__p{
     padding: 50px 7% 100px;
@@ -454,7 +453,7 @@ margin-top: 36%;
   .main-cooperation__section{
     padding-top: 50px;
   }
-  .body-index{
+  /* .body-index{
     background-image: url("./img/670.jpg");
     background-repeat: no-repeat;
     display: flex;
@@ -465,7 +464,7 @@ margin-top: 36%;
     background-position: center;
     height: 1vh;
 
-}
+} */
 .display-none{
   display: block;
 }
