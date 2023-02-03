@@ -27,8 +27,8 @@
     width: 100%;
     min-height: 100%;
     font-family: "Bodoni MT Black";
-    font-size: calc(10px + 26 * (100vw / 1555));
-    line-height: calc(10px + 26 * (100vw / 1555));
+    font-size: calc(10px + 16 * (100vw / 1555));
+    line-height: calc(10px + 16 * (100vw / 1555));
     font-weight: 400;
     color: #fff;
     background-color: #636675;
@@ -77,7 +77,8 @@
     align-items: center;
   }
   .header-about-us__img{
-    width: calc(55px + 10 * (100vw / 1555));
+    width: calc(55px + 40 * (100vw / 1555));
+    margin-right: 2%;
   }
   .nav-about-us{
     background-color: rgba(222, 24, 119, 0.89);;
@@ -106,7 +107,7 @@
   .main-about-us__h2{
     text-align: center;
     line-height: calc(20px + 55 * (100vw / 1555));
-    font-size: calc(20px + 44 * (100vw / 1555));
+    font-size: calc(20px + 34 * (100vw / 1555));
   }
   .main-about-us__section-li-img{
     fill: #DE1877;
@@ -211,6 +212,9 @@
 .header-about-us__li:nth-child(3){
   display: none;
 }
+.header-about-us__li:nth-child(1){
+  width: 40%;
+}
 .main-price__p{
   line-height: calc(30px + 16 * (100vw / 1555));
   font-size: calc(20px + 16 * (100vw / 1555));
@@ -302,20 +306,21 @@
 }
 .main-useful-information__h2{
   line-height: calc(50px + 16 * (100vw / 1555));
-  font-size: calc(20px + 44 * (100vw / 1555));
+  font-size: calc(20px + 24 * (100vw / 1555));
   padding: 5%;
+  padding-top: 0;
   text-align: center;
 }
 .main-useful-information__p{
   line-height: calc(30px + 16 * (100vw / 1555));
-  font-size: calc(16px + 18 * (100vw / 1555));
-  padding: 0 10% 5%;
+  font-size: calc(16px + 10 * (100vw / 1555));
+  padding: 0 5% 5%;
   text-align: center;
 }
 .main-useful-information__span{
   text-align: left;
   line-height: calc(30px + 16 * (100vw / 1555));
-  font-size: calc(16px + 18 * (100vw / 1555));
+  font-size: calc(16px + 8 * (100vw / 1555));
   padding: 0 10% 5%;
 }
 .main-development-h2{
@@ -416,6 +421,12 @@ color: #E0001D;
 display: flex;
 justify-content: center;
 margin-top: 36%;
+}
+.main-useful-information--divflex{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 5%;
 }
 @media(max-width:767px){
   .form-name{
@@ -531,6 +542,9 @@ margin-top: 36%;
 
 .display-none{
   display: none;
+}
+.main-useful-information__img{
+  height: 450px;
 }
 }
 
