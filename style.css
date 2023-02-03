@@ -215,6 +215,9 @@
 .header-about-us__li:nth-child(1){
   width: 40%;
 }
+.main-useful-information__h2--top{
+  padding-top: 100px;
+}
 .main-price__p{
   line-height: calc(30px + 16 * (100vw / 1555));
   font-size: calc(20px + 16 * (100vw / 1555));
