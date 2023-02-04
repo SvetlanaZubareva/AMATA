@@ -215,9 +215,7 @@
 .header-about-us__li:nth-child(1){
   width: 40%;
 }
-.main-useful-information__h2--top{
-  padding-top: 100px;
-}
+
 .main-price__p{
   line-height: calc(30px + 16 * (100vw / 1555));
   font-size: calc(20px + 16 * (100vw / 1555));
@@ -317,7 +315,7 @@
 .main-useful-information__p{
   line-height: calc(30px + 16 * (100vw / 1555));
   font-size: calc(16px + 10 * (100vw / 1555));
-  padding: 0 5% 5%;
+  padding: 0 5% 3%;
   text-align: center;
 }
 .main-useful-information__span{
@@ -431,6 +429,28 @@ margin-top: 36%;
   align-items: start;
   padding: 5%;
 }
+.footer-about-us__li--color:nth-child(1){
+  color: #fff;
+}
+.footer-about-us__li--color:nth-child(2){
+  color: #fff;
+}
+.main-about-us__section-li-img--color{
+  color: #fff;
+}
+.main-useful-information__h2--top{
+  padding-top: 100px;
+}
+.main-useful-information--divflex-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-useful-information--divflex-center__img{
+  margin-bottom: 3%;
+}
+
 @media(max-width:767px){
   .form-name{
     padding: 50px 10% 50px;
@@ -548,6 +568,21 @@ margin-top: 36%;
 }
 .main-useful-information__img{
   height: 450px;
+}
+.main-about-us__img-d{
+  height: 400px;
+}
+.main-about-us__p-d{
+  font-size: 36px;
+}
+.main-about-us__h2-d{
+  font-size: 50px;
+}
+.main-useful-information__p-d{
+  font-size: 36px;
+}
+.main-cooperation__h1{
+  font-size: 60px;
 }
 }
 
