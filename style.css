@@ -426,7 +426,7 @@ margin-top: 36%;
 .main-useful-information--divflex{
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   padding: 5%;
 }
 .footer-about-us__li--color:nth-child(1){
@@ -503,6 +503,9 @@ margin-top: 36%;
 .display-none{
   display: block;
 }
+.img__useful{
+  height: 300px;
+}
  
 }
 @media(max-width:1200px){
@@ -559,6 +562,14 @@ margin-top: 36%;
   }
   .body-index__div{
     display: none;
+  }
+  .main-useful-information--divflex,
+  .main-useful-information--divflex-center{
+    flex-direction: column;
+  }
+  .img__useful{
+    width: 70%;
+    height: 300px;
   }
 }
 @media(min-width:1200px){
