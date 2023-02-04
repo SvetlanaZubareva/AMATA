@@ -309,7 +309,6 @@
   line-height: calc(50px + 16 * (100vw / 1555));
   font-size: calc(20px + 24 * (100vw / 1555));
   padding: 5%;
-  padding-top: 0;
   text-align: center;
 }
 .main-useful-information__p{
@@ -506,7 +505,21 @@ margin-top: 36%;
 .img__useful{
   height: 300px;
 }
- 
+.main-useful-information__h2--top {
+  padding-top: 50px;
+}
+.header-about-us__li:nth-child(1) {
+  width: 80%;
+}
+.header-about-us__img{
+  width: 40px;
+}
+.header-about-us__h1{
+  font-size: 18px;
+}
+.header-about-us__ul{
+  padding-top: 60px;
+}
 }
 @media(max-width:1200px){
   .nav-about-us__a{
